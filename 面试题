@@ -163,3 +163,242 @@ Dubbo原理，建议大白话将
 7.xml和yaml的区别
 
 
+--------------------------------小草提供--------------------------------
+有赞：
+1.Spring AOP 源码。怎么使用
+2.线程状态
+3.redis 缓存，本地缓存
+4.mysql 为什么使用B+树做索引
+5.B+树索引与Hash索引的区别
+6.事务隔离级别，分布式事务
+
+同花顺：
+1，数据库索引
+2，系统技术架构，用了哪些技术，请求怎么分发。
+3，并发插入数据库，怎么控制，五千万。
+4，redis缓存。
+5.分区分表，常用线程池
+
+
+总结：
+@AutoWired注解怎么实现
+AOP切面及解析流程
+监听器拦截器的区别
+锁，并发框架
+HashMap插入流程
+索引
+SpringBoot,SpringClound
+CopyOnWriteArrayList
+数据库查询优化
+ArrayList和LinkedList的区别
+HashMap的哈希算法
+LinkedHashMap与TreeMap
+Synchronized和Lock接口对比
+读写锁
+Redis架构
+Redis事务，redis数据失效（精确失效）
+mq如何保证消息有序性
+mq的优点并深刻理解其优点
+线程池
+Spring初始化流程
+cglib怎么实现动态代理
+volatile底层实现及原理
+BeanFactoryPostProcessor
+redis分布式锁
+JVM类加载流程
+Spring事务：
+a()方法没有事务，b()方法有事务，a()调用b()是否有事务。（看Spring事务源码）
+JVM FullGC深入理解，并比较各个垃圾回收器（需要很熟练）
+不使用mycat怎么实现分区分表？，或者配置文件的动态加载（51信用卡）
+
+1.java 的class loader 机制，双亲委托     
+2.mysql主从复制延迟原因以及解决方案
+3.KAFKA 如何保证mq强顺序
+4.秒杀的时候如何防止有人用机器去模拟请求
+5.DUBBO服务端和消费端的心跳检测是怎么做的的
+6.缓存和数据库这么保证数据强一致性
+7.threadlocal原理
+
+挖财：
+1.线程池参数选择（IO或者cpu计算类型区分）
+2.CPU  load过高怎么处理
+3.接口限流
+4.TX private方法 能不能通知
+5. zookeeper分布式锁与redis分布式锁的区别；
+6.hashMap modCount有什么用（Fast-Fail机制）
+
+大搜车：
+Zk是否强一致，作为注册中心有什么缺点(阿里用nacos)
+Mysql分页
+开放平台 
+
+菜鸟：
+spring
+Redis,zk 分布式锁
+Map，mq，事务消息的实现，延时队列，死信队列
+lock，volatile，concurrent包
+happen before
+
+
+
+腾讯算法：
+1、树的中序遍历非递归实现；
+2、两个数组，找出中位数
+3、两个数字字符串相加，不能使用工具类，转换等；
+
+
+鲸灵：
+深拷贝，浅拷贝
+Dubbo负载均衡如何实现，及各负载均衡使用场景
+rocketMq延时消息实现
+Redis与zk分布式锁的优劣点
+垃圾回收
+
+智云健康：
+滑动窗口限流
+秒杀需要考虑的问题
+PM能力
+栈如何溢出
+规则引擎
+ForkJoin的坑
+
+呆萝卜
+
+数据库mvcc
+锁，可重入锁
+cas如何保证原子性
+聚簇索引和非聚簇索引的区别
+spring初始化顺序
+动态代理如何实现
+redis数据类型
+分布式锁实现
+限流，降级，熔断
+spring循环依赖怎么解决
+jmm
+dubbo和http对比，为什么用dubbo
+消息队列
+覆盖索引
+redo和undo的作用
+cas的缺点
+Redis key过期策略
+一致性哈希算法
+
+数据库mvcc
+锁，可重入锁
+cas如何保证原子性
+聚簇索引和非聚簇索引的区别
+spring初始化顺序
+动态代理如何实现
+redis数据类型
+分布式锁实现
+限流，降级，熔断
+spring循环依赖怎么解决
+jmm
+dubbo和http对比，为什么用dubbo
+消息队列
+覆盖索引
+redo和undo的作用
+cas的缺点
+redis key过期处理
+一致性hash
+类加载双亲打破
+redis分布式锁主挂从未同步问题
+springboot启动原理
+订单重复提交
+唯一键
+序列化ID如果不指定有没有问题
+限流、降级框架原理
+synchronized原理
+lock原理
+CAS原理
+线程池原理
+concuurrenHashMap1.7、1.8区别
+保证高可用的方法
+调优实战
+innodb和myisam的区别
+索引实现
+
+
+分布式id生成
+spring  bean 有序初始化
+动静态代理的比较，spring中分别怎么使用
+分区分表，如何更均匀
+
+Cap
+Tcc
+nio aio区别
+
+redis 热点key
+netty 零拷贝
+kafka 零拷贝
+
+
+阻塞 非阻塞 异步 同步区别
+
+
+java对象头内容，填充字段干嘛用的；
+zk的注册机制；
+事务隔离级别，怎么实现的？
+
+货拉拉:
+项目里用的数据库连接池是什么，连接数配置的多大，根据什么决定这个大小的
+使用过多线程吗，异步相比同步需要考虑哪些问题
+dubbo如何做限流的
+你项目还有哪些可以优化的地方吗
+
+
+Redis:
+1、什么是Redis？
+2、Redis相比memcached有哪些优势？
+3、Redis支持哪几种数据类型？
+4、Redis主要消耗什么物理资源？
+5、Redis的全称是什么？
+6、Redis有哪几种数据淘汰策略？
+7、Redis官方为什么不提供Windows版本？
+8、一个字符串类型的值能存储最大容量是多少？
+9、为什么Redis需要把所有数据放到内存中？
+10、Redis集群方案应该怎么做？都有哪些方案？
+11、Redis集群方案什么情况下会导致整个集群不可用？
+12、MySQL里有2000w数据，redis中只存20w的数据，如何保证redis中的数据都是热点数据？
+  13、Redis有哪些适合的场景？
+  14、Redis支持的Java客户端都有哪些？官方推荐用哪个？
+15、Redis和Redisson有什么关系？
+16、Jedis与Redisson对比有什么优缺点？
+17、Redis如何设置密码及验证密码？
+18、说说Redis哈希槽的概念？
+19、Redis集群的主从复制模型是怎样的？
+20、Redis集群会有写操作丢失吗？为什么？
+21、Redis集群之间是如何复制的？
+22、Redis集群最大节点个数是多少？
+23、Redis集群如何选择数据库？
+24、怎么测试Redis的连通性？
+25、Redis中的管道有什么用？
+26、怎么理解Redis事务？
+27、Redis事务相关的命令有哪几个？
+28、Redis key的过期时间和永久有效分别怎么设置？
+29、Redis如何做内存优化？
+30、Redis回收进程如何工作的？
+31、Redis回收使用的是什么算法？
+32、Redis如何做大量数据插入？
+33、为什么要做Redis分区？
+34、你知道有哪些Redis分区实现方案？
+35、Redis分区有什么缺点？
+36、Redis持久化数据和缓存怎么做扩容？
+37、分布式Redis是前期做还是后期规模上来了再做好？为什么？
+38、Twemproxy是什么？
+39、支持一致性哈希的客户端有哪些？
+40、Redis与其他key-value存储有什么不同？
+41、Redis的内存占用情况怎么样？
+42、都有哪些办法可以降低Redis的内存使用情况呢？
+43、查看Redis使用情况及状态信息用什么命令？
+44、Redis的内存用完了会发生什么？
+45、Redis是单线程的，如何提高多核CPU的利用率？
+46、一个Redis实例最多能存放多少的keys？List、Set、Sorted Set他们最多能存放多少元素？
+47、Redis常见性能问题和解决方案？
+48、Redis提供了哪几种持久化方式？
+49、如何选择合适的持久化方式？
+50、修改配置不重启Redis会实时生效吗？
+
+scp例子： scp root@10.45.8.232:/Data/software/s9war/ROOT.war  /Data/software/tomcat/webapps/ROOT.war
+
+
